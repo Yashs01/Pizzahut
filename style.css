@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Montserrat:wght@300;400&family=Poppins:wght@300;400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+img{
+    height: 100px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    transition: ease-in;
+}
+
+.Main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 60px  0 0 -130px ;
+}
+.Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 30px;
+}
+.logo{
+    margin: 50px 0px 0 220px;
+}
+.menubar ul{
+    display: flex;
+}
+ul li{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ul li a {
+    text-decoration: none;
+    margin: 0 50px;
+    color: black;
+    font-size: 21px;
+    
+}
+
+.text_pizza{
+    display: flex;
+    margin: 10px 0px 0 0 ;
+}
+ h3{
+    font-size: 25px;
+    margin: 10px 0;
+}
+h1{
+    font-size: 70px;
+    font-weight: 400;
+    margin: 0 0 30px 0;
+}
+p{
+    font-size: 20px;
+    width: 600px;
+    margin: 0 0 30px 0;
+}
+.p_img img{
+    margin: 50px 10px 0 10px;
+    display: flex;
+}
+.p_img{
+    display: flex;
+    margin: 0 0 0 -50px;
+}
+.p_img img{
+    height: 130px;
+}
+.mark{
+    height: 6px;
+    width: 30px;
+    background-color: orangered;
+    border-radius: 40px;
+    text-align: center;
+    margin: 20px 0 0 60px;
+    box-shadow:5px 5px 5px rgb(62, 62, 62);
+    
+}
+.p_img img:hover{
+    transform: scale(1.1);
+    transition: .2s;
+    cursor: pointer;
+}
+.I_motion{
+    margin-right: -90px;
+}
+.I_motion img{
+    height: 500px;
+}
+@media(max-width: 670px){
+    .main{
+        margin-right: 20px;
+        
+    }
+    ul li a{
+        margin: 30px 5px 0 10px;
+        font-size: 15px;
+    }
+    .logo{
+        margin: 50px 0px 0 0px;
+    }
+    .Main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 60px  0 0 20px;
+        text-align: center;
+    }
+    h3{
+        font-size: 25px;
+        margin: 0 20px 30px 0;
+    }
+    h1{
+        font-size: 60px;
+        font-weight: 300;
+        margin: 0 20px 20px 0;
+    }
+    p{
+        font-size: 18px;
+        width: 200px;
+        margin: 0 0 30px 70px;
+    }
+    .p_img{
+        display: flex;
+        margin: 0 0 0 -5px;
+    }
+    .p_img{
+        width: 300px;
+    }
+    .p_img img{
+        height: 70px;
+        margin: 20px 10px;
+    }
+    .mark{
+        height: 6px;
+        width: 30px;
+        background-color: orangered;
+        border-radius: 40px;
+        text-align: center;
+        margin: 20px 0 0 30px;
+        box-shadow:5px 5px 5px rgb(62, 62, 62);  
+    }
+    .I_motion{
+        margin-right:10px;
+        margin-top: 30px ;
+    }
+    .I_motion img{
+        height: 300px;
+    }
+}
